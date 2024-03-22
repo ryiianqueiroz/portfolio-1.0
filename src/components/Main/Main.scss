@@ -1,35 +1,32 @@
 main{
     display: flex;
-    max-width: 900px;
+    max-width: 1000px;
     align-items: center;
     justify-content: center;
     padding-top: 170px;
     margin: auto;
     padding-left: 50px;
 
-    .photo-mine{
-        width: 40%;
+    .main-principal{
+        p{
+            margin-top: 20px;
 
-        img{
-            width: 300px;
-            height: 300px;
-            border-radius: 150%;
-            box-shadow: 0px 0px 0px 10px rgb(245, 245, 245);
+            &:nth-child(1){
+                font-size: 15px;
+            }
         }
 
-    }
+        h1{
+            font-size: 80px;
+            margin-top: -10px;
+            margin-bottom: 0px;
+            letter-spacing: 2px;
+        }
 
-    .main-principal{
-        width: 60%;
-
-        .main-contact-images{
-            display: flex;
-
-            img{
-                width: 40px;
-                height: 40px;
-                margin-right: 20px;
-            }
+        h3{
+            margin-top: 0px;
+            font-size: 30px;
+            font-weight: 300;
         }
     }
 }

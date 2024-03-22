@@ -5,7 +5,6 @@ function Nav() {
       <nav>
         <div className="r-flex">
           <span className="r-circle">R</span>
-          <h2>Ryan Queiroz</h2>
         </div>
 
         <ul>
