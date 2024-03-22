@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 170px;
+  margin: auto;
+  padding-left: 50px;
+}
+main .photo-mine {
+  width: 40%;
+}
+main .photo-mine img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150%;
+  box-shadow: 0px 0px 0px 10px rgb(245, 245, 245);
+}
+main .main-principal {
+  width: 60%;
+}
+main .main-principal .main-contact-images {
+  display: flex;
+}
+main .main-principal .main-contact-images img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=Main.css.map */

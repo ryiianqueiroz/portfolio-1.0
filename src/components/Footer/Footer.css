@@ -1,0 +1,40 @@
+footer {
+  background-color: black;
+  margin-top: 100px;
+  color: white;
+  margin-top: 100px;
+  padding: 40px;
+}
+footer .fpart {
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: auto;
+  justify-items: center;
+}
+footer .fpart .fpart1 h1 {
+  margin-top: 5px;
+}
+footer .fpart .fpart1 p {
+  color: rgb(190, 190, 190);
+}
+footer .fpart .fpart2 h2, footer .fpart .fpart3 h2 {
+  color: rgb(235, 235, 235);
+  font-weight: 500;
+  cursor: pointer;
+}
+footer .fpart .fpart4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .fpart .fpart4 img {
+  width: 40px;
+  height: 40px;
+}
+footer h2 {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=Footer.css.map */
