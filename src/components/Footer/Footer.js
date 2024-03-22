@@ -1,6 +1,5 @@
 import "./Footer.css"
 import GitHub from "../../assets/github-logo-white.png"
-import Linkedin from "../../assets/linkedin-logo-white.png"
 import Instagram from "../../assets/instagram-logo-white.png"
 
 function Footer() {
@@ -29,7 +28,6 @@ function Footer() {
                 <div className="fpart4">
                     <img src={GitHub} alt="#" />
                     <img src={Instagram} alt="#" />
-                    <img src={Linkedin} alt="#" />
                 </div>
             </div>
         </footer>
