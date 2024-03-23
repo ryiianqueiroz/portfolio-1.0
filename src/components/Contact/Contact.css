@@ -8,9 +8,14 @@
   margin-left: 70px;
 }
 .contacts-images img {
-  width: 40px;
+  width: 30px;
   margin-bottom: 20px;
-  height: 40px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.contacts-images img:hover {
+  transform: translateY(-15%);
 }
 .contacts-images .white-border {
   width: 1px;
