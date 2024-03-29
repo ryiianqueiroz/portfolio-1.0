@@ -3,20 +3,69 @@ section {
   flex-direction: column;
 }
 
-h1 {
+#about-me-h1 {
   font-size: 2rem;
   display: flex;
   align-self: center;
   margin-top: 160px;
+  border-bottom: 2px solid rgb(182, 187, 196);
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .about-me {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 30px;
+  margin-top: 23px;
   margin-right: auto;
   margin-left: auto;
   max-width: 850px;
+}
+.about-me .text-about-me {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.about-me .text-about-me p:nth-child(1) {
+  margin-top: 0px;
+}
+.about-me .text-about-me h2 {
+  color: white;
+}
+.about-me .tecnology-used img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+.about-me .tecnology-used img:nth-child(2) {
+  filter: grayscale(100%) brightness(70%) contrast(2) invert(2);
+}
+.about-me .tecnology-used img:nth-child(5) {
+  transform: scale(1);
+}
+.about-me .tecnology-used img:nth-child(6) {
+  transform: scale(0.85);
+}
+.about-me .tecnology-used img:nth-child(5), .about-me .tecnology-used img:nth-child(6) {
+  filter: grayscale(100%) brightness(70%) contrast(300%) invert(2);
+}
+.about-me .tecnology-used img:nth-child(7) {
+  filter: grayscale(100%) brightness(100%) contrast(2) invert(0);
+}
+.about-me .tecnology-used img:hover {
+  filter: brightness(1) invert(0) contrast(1) grayscale(0);
+}
+.about-me .photo-me {
+  display: flex;
+  height: 100%;
+  justify-content: right;
+}
+.about-me .photo-me .my-photo {
+  background-color: white;
+  width: 70%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=About.css.map */
