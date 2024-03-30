@@ -17,12 +17,13 @@ function Projects() {
             </div>
             
             <div className="project-info">
-              <p>Projeto</p>
+              <p>{'</>'}</p>
               <h1>Insure</h1>
-              <p id="p-info-project"></p>
+              <hr />
+              <p id="p-info-project">Desenvolvimento de um site corporativo com uma interface elegante e intuitiva.</p>
               <div className="links-project">
                 <a href="#">
-                  <img src={GitHub} alt="#" />
+                  <button><img src={GitHub} alt="#" /></button>
                 </a>
                 <a href="#">
                   <button>Acessar Projeto</button>
@@ -38,12 +39,13 @@ function Projects() {
             </div>
             
             <div className="project-info">
-              <p>Projeto</p>
-              <h1>Calculador de Gorjeta</h1>
-              <p id="p-info-project"></p>
+              <p>{'</>'}</p>
+              <h1>Splitter</h1>
+              <hr />
+              <p id="p-info-project">Calcule a contribuição individual necessária da mesa para cobrir a conta.</p>
               <div className="links-project">
                 <a href="#">
-                  <img src={GitHub} alt="#" />
+                  <button><img src={GitHub} alt="#" /></button>
                 </a>
                 <a href="#">
                   <button>Acessar Projeto</button>
@@ -59,12 +61,13 @@ function Projects() {
             </div>
             
             <div className="project-info">
-              <p>Projeto</p>
+              <p>{'</>'}</p>
               <h1>Sunnyside</h1>
-              <p id="p-info-project"></p>
+              <hr />
+              <p id="p-info-project">Criação de uma landing page responsiva do desafio oferecido pelo Front End Mentor.</p>
               <div className="links-project">
                 <a href="#">
-                  <img src={GitHub} alt="#" />
+                  <button><img src={GitHub} alt="#" /></button>
                 </a>
                 <a href="#">
                   <button>Acessar Projeto</button>

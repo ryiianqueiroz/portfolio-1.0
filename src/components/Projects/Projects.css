@@ -20,25 +20,43 @@
 .projects .project {
   display: flex;
   flex-direction: row-reverse;
+  background-color: rgb(49, 48, 77);
+  padding: 2%;
 }
 .projects .project .project-img {
-  width: 50%;
+  width: 60%;
+  max-height: 280px;
 }
 .projects .project .project-img img {
   width: 100%;
-  max-height: 280px;
+  height: 100%;
   object-fit: cover;
   object-position: top;
 }
 .projects .project .project-info {
-  width: 50%;
+  width: 40%;
 }
 .projects .project .project-info img {
   width: 30px;
   height: 30px;
 }
+.projects .project .project-info h1 {
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
+.projects .project .project-info hr {
+  width: 100px;
+  position: absolute;
+}
+.projects .project .project-info #p-info-project {
+  margin-top: 30px;
+  max-width: 310px;
+}
 .projects .project:nth-child(2) {
   flex-direction: row;
+}
+.projects .project:nth-child(2) .project-info {
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=Projects.css.map */
