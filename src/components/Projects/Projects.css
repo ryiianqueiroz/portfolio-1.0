@@ -35,6 +35,7 @@
 }
 .projects .project .project-info {
   width: 40%;
+  position: relative;
 }
 .projects .project .project-info img {
   width: 30px;
@@ -48,9 +49,80 @@
   width: 100px;
   position: absolute;
 }
+.projects .project .project-info p:nth-child(1) {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
 .projects .project .project-info #p-info-project {
   margin-top: 30px;
   max-width: 310px;
+}
+.projects .project .project-info .icon-skills {
+  display: flex;
+  gap: 15px;
+}
+.projects .project .project-info .icon-skills img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+.projects .project .project-info .icon-skills img:nth-child(5) {
+  transform: scale(1);
+}
+.projects .project .project-info .icon-skills img:nth-child(4) {
+  transform: scale(0.86);
+}
+.projects .project .project-info .icon-skills img:nth-child(3), .projects .project .project-info .icon-skills img:nth-child(4) {
+  filter: grayscale(100%) brightness(70%) contrast(300%) invert(2);
+}
+.projects .project .project-info .icon-skills img:nth-child(5) {
+  filter: grayscale(100%) brightness(100%) contrast(2) invert(0);
+  transform: scale(0.8);
+}
+.projects .project .project-info .links-project {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  gap: 5px;
+}
+.projects .project .project-info .links-project a {
+  text-decoration: none;
+}
+.projects .project .project-info .links-project button {
+  width: 120px;
+  background-color: rgba(16, 19, 36, 0.39);
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 50px;
+  color: rgb(182, 187, 196);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.projects .project .project-info .links-project button img {
+  width: 25px;
+  height: 25px;
+  filter: opacity(80%);
+}
+.projects .project .project-info .links-project button #open-link {
+  filter: invert(0.8);
+}
+.projects .project .project-info .links-project button:hover {
+  background-color: rgba(16, 19, 36, 0.651);
+  color: white;
+}
+.projects .project .project-info .links-project button:hover:hover > img {
+  filter: opacity(100%);
+}
+.projects .project .project-info .links-project button:hover:hover > #open-link {
+  filter: invert(1);
 }
 .projects .project:nth-child(2) {
   flex-direction: row;

@@ -37,6 +37,7 @@
 
         .project-info{
             width: 40%;
+            position: relative;
 
             img{
                 width: 30px;
@@ -53,9 +54,97 @@
                 position: absolute; 
             }
 
+            p{
+                &:nth-child(1){
+                    margin-top: 0px;
+                    margin-bottom: 20px;
+                }
+            }
+
             #p-info-project{
                 margin-top: 30px;
                 max-width: 310px;
+            }
+
+            .icon-skills{
+                display: flex;
+                gap: 15px;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                    filter: brightness(0) invert(1);
+                    cursor: pointer;
+        
+                    &:nth-child(5){
+                        transform: scale(1);
+                    }
+        
+                    &:nth-child(4){
+                        transform: scale(0.86);
+                    }
+        
+                    &:nth-child(3), &:nth-child(4){
+                        filter: grayscale(100%) brightness(70%) contrast(300%) invert(2);
+                    }
+        
+                    &:nth-child(5){
+                        filter: grayscale(100%) brightness(100%) contrast(2) invert(0);
+                        transform: scale(0.8);
+                    }
+                }
+            }
+
+            .links-project{
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                gap: 5px;
+
+                a{
+                    text-decoration: none;
+                }
+
+                button{
+                    width: 120px;
+                    background-color: rgba(16, 19, 36, 0.39);
+                    border: none;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    height: 50px;
+                    color: rgb(182, 187, 196);
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                    img{
+                        width: 25px;
+                        height: 25px;
+                        filter: opacity(80%);
+                    }
+
+                    #open-link{
+                        filter: invert(0.8);
+                    }
+
+                    &:hover{
+                        background-color: rgba(16, 19, 36, 0.651);
+                        color: white;
+
+                        &:hover > img{
+                            filter: opacity(100%);
+                        }
+
+                        &:hover > #open-link{
+                            filter: invert(1);
+                        }
+                    }
+                }
             }
         }
 
