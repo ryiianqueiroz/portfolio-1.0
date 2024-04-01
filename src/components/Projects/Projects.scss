@@ -10,6 +10,35 @@
     border-bottom: 2px solid rgb(182, 187, 196);
 }
 
+.icon-skills{
+    display: flex;
+    gap: 15px;
+
+    img{
+        width: 30px;
+        height: 30px;
+        filter: brightness(0) invert(1);
+        cursor: pointer;
+
+        &:nth-child(5){
+            transform: scale(1);
+        }
+
+        &:nth-child(4){
+            transform: scale(0.86);
+        }
+
+        &:nth-child(3), &:nth-child(4){
+            filter: grayscale(100%) brightness(70%) contrast(300%) invert(2);
+        }
+
+        &:nth-child(5){
+            filter: grayscale(100%) brightness(100%) contrast(2) invert(0);
+            transform: scale(0.8);
+        }
+    }
+}
+
 .projects{
     display: grid;
     grid-template-columns: 1fr;
@@ -64,35 +93,6 @@
             #p-info-project{
                 margin-top: 30px;
                 max-width: 310px;
-            }
-
-            .icon-skills{
-                display: flex;
-                gap: 15px;
-
-                img{
-                    width: 30px;
-                    height: 30px;
-                    filter: brightness(0) invert(1);
-                    cursor: pointer;
-        
-                    &:nth-child(5){
-                        transform: scale(1);
-                    }
-        
-                    &:nth-child(4){
-                        transform: scale(0.86);
-                    }
-        
-                    &:nth-child(3), &:nth-child(4){
-                        filter: grayscale(100%) brightness(70%) contrast(300%) invert(2);
-                    }
-        
-                    &:nth-child(5){
-                        filter: grayscale(100%) brightness(100%) contrast(2) invert(0);
-                        transform: scale(0.8);
-                    }
-                }
             }
 
             .links-project{
@@ -153,6 +153,72 @@
 
             .project-info{
                 margin-left: 20px;
+            }
+        }
+    }
+}
+
+.other-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 150px;
+    gap: 10px;
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .ot-project{
+        background-color: rgb(49, 48, 77);
+        padding: 8%;
+        font-size: 15px;
+        transition: 0.25s ease-in-out;
+
+        &:hover{
+            transform: translateY(-1.5%);
+        }
+
+        .links-ot-project{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            hr{
+                width: 100px;
+                height: 1px;
+                display: flex;
+                margin: 0;
+            }
+
+            .links-ot{
+                display: flex;
+                gap: 10px;
+
+                a{
+                    img{
+                        cursor: pointer;
+                    }
+                }
+
+                #git-icon{
+                    transform: scale(0.8);
+                    filter: opacity(0.8);
+
+                    &:hover{
+                        filter: opacity(1);
+                    }
+                }
+
+                #link-icon{
+                    filter: opacity(0.7) invert(1);
+
+                    &:hover{
+                        filter: invert(1);  
+                    }
+                }
             }
         }
     }
