@@ -10,6 +10,14 @@
     border-bottom: 2px solid rgb(182, 187, 196);
 }
 
+#tip-img{
+    object-position: center;
+}
+
+#typescript-img{
+    filter: invert(1) grayscale(1) brightness(2);
+}
+
 .icon-skills{
     display: flex;
     gap: 15px;
@@ -35,6 +43,16 @@
         &:nth-child(5){
             filter: grayscale(100%) brightness(100%) contrast(2) invert(0);
             transform: scale(0.8);
+        }
+    }
+
+    &.ot-pr{
+        position: absolute;
+        padding-bottom: 5%;
+        bottom: 0;
+        
+        img{
+            cursor: auto;
         }
     }
 }
@@ -176,9 +194,18 @@
         padding: 8%;
         font-size: 15px;
         transition: 0.25s ease-in-out;
+        position: relative;
 
         &:hover{
             transform: translateY(-1.5%);
+        }
+
+        h1{
+            margin-top: 10px;
+        }
+
+        p{
+            margin-bottom: 80px;
         }
 
         .links-ot-project{

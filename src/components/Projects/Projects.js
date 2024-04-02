@@ -9,6 +9,9 @@ import SASS from "../../assets/sass-colorido.svg"
 import HTML from "../../assets/html-colorido.png"
 import CSS from "../../assets/css-colorido.svg"
 import JS from "../../assets/javascript-colorido.svg"
+import Tailwind from "../../assets/tailwind-colorido.svg"
+import Angular from "../../assets/angular-logo-white.png"
+import Typescript from "../../assets/typescript-logo-colorido.svg"
 
 function Projects() {
     return (
@@ -28,7 +31,7 @@ function Projects() {
               <hr />
               <p id="p-info-project">Desenvolvimento de um site corporativo com uma interface elegante e intuitiva.</p>
 
-              <div className="icon-skills">
+              <div className="icon-skills ">
                 <img src={React} alt="react-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
@@ -50,7 +53,7 @@ function Projects() {
 
           <div className="project">
             <div className="project-img">
-              <img src={TipCalculator} alt="project-img" />
+              <img src={TipCalculator} alt="project-img" id="tip-img"/>
             </div>
             
             <div className="project-info">
@@ -59,7 +62,7 @@ function Projects() {
               <hr />
               <p id="p-info-project">Calcule a contribuição individual necessária da mesa para cobrir a conta.</p>
 
-              <div className="icon-skills">
+              <div className="icon-skills ">
                 <img src={React} alt="react-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
@@ -90,7 +93,7 @@ function Projects() {
               <hr />
               <p id="p-info-project">Criação de uma landing page responsiva do desafio oferecido pelo Front End Mentor.</p>
               
-              <div className="icon-skills">
+              <div className="icon-skills ">
                 <img src={React} alt="react-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
@@ -125,8 +128,8 @@ function Projects() {
             </div>
 
             <h1>Advice</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem odit at ab explicabo! Tenetur consectetur exercitationem modi iste harum, porro beatae perspiciatis omnis aut sequi nemo earum ut numquam?</p>
-            <div className="icon-skills">
+            <p>Um programa que consome uma API. Ao pressionar o botão, o usuário receberá um novo conselho.</p>
+            <div className="icon-skills ot-pr">
                 <img src={React} alt="react-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
@@ -146,13 +149,13 @@ function Projects() {
             </div>
 
             <h1>Senha Forte</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem odit at ab explicabo! Tenetur consectetur exercitationem modi iste harum, porro beatae perspiciatis omnis aut sequi nemo earum ut numquam?</p>
-            <div className="icon-skills">
-                <img src={React} alt="react-icon" />
-                <img src={SASS} alt="sass-icon" />
+            <p>Este programa gera senhas seguras para o usuário, garantindo sua segurança ao demonstrar o nível de segurança da senha gerada.</p>
+            <div className="icon-skills ot-pr">
+                <img src={Angular} alt="angular-icon" />
+                <img src={Tailwind} alt="tailwind-icon" />
                 <img src={HTML} alt="html-icon" />
                 <img src={CSS} alt="css-icon" />
-                <img src={JS} alt="js-icon" />
+                <img src={Typescript} alt="typescript-icon" id="typescript-img" />
             </div>
           </div>
 
@@ -167,8 +170,8 @@ function Projects() {
             </div>
 
             <h1>loopstudios</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem odit at ab explicabo! Tenetur consectetur exercitationem modi iste harum, porro beatae perspiciatis omnis aut sequi nemo earum ut numquam?</p>
-            <div className="icon-skills">
+            <p>Criação de uma landing page com design responsivo.</p>
+            <div className="icon-skills ot-pr">
                 <img src={React} alt="react-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
@@ -188,10 +191,10 @@ function Projects() {
             </div>
 
             <h1>SNAP</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem odit at ab explicabo! Tenetur consectetur exercitationem modi iste harum, porro beatae perspiciatis omnis aut sequi nemo earum ut numquam?</p>
-            <div className="icon-skills">
+            <p>Desenvolvimento de uma landing page responsiva com uma interface intuitiva.</p>
+            <div className="icon-skills ot-pr">
                 <img src={React} alt="react-icon" />
-                <img src={SASS} alt="sass-icon" />
+                <img src={Tailwind} alt="tailwind-icon" />
                 <img src={HTML} alt="html-icon" />
                 <img src={CSS} alt="css-icon" />
                 <img src={JS} alt="js-icon" />
@@ -209,8 +212,8 @@ function Projects() {
             </div>
 
             <h1>Tabela de Preços</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem odit at ab explicabo! Tenetur consectetur exercitationem modi iste harum, porro beatae perspiciatis omnis aut sequi nemo earum ut numquam?</p>
-            <div className="icon-skills">
+            <p>Um modelo de página que exibe uma tabela com os preços, oferecendo a opção de alternar entre planos mensais e anuais.</p>
+            <div className="icon-skills ot-pr">
                 <img src={React} alt="react-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
@@ -230,13 +233,13 @@ function Projects() {
             </div>
 
             <h1>Social Media</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem odit at ab explicabo! Tenetur consectetur exercitationem modi iste harum, porro beatae perspiciatis omnis aut sequi nemo earum ut numquam?</p>
-            <div className="icon-skills">
-                <img src={React} alt="react-icon" />
+            <p>Apresentação das estatísticas das redes sociais do usuário e com opção de tema claro ou escuro.</p>
+            <div className="icon-skills ot-pr">
+                <img src={Angular} alt="angular-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
                 <img src={CSS} alt="css-icon" />
-                <img src={JS} alt="js-icon" />
+                <img src={Typescript} alt="typescript-icon" id="typescript-img"/>
             </div>
           </div>
 
