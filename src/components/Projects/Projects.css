@@ -166,6 +166,7 @@
   font-size: 15px;
   transition: 0.25s ease-in-out;
   position: relative;
+  height: 330px;
 }
 .other-projects .ot-project:hover {
   transform: translateY(-1.5%);

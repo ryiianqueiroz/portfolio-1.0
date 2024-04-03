@@ -1,35 +1,31 @@
 import "./Footer.css"
 import GitHub from "../../assets/github-logo-white.png"
 import Instagram from "../../assets/instagram-logo-white.png"
+import Linkedin from "../../assets/linkedin-white-logo.png"
+import Email from "../../assets/email-icon-white.png"
 
 function Footer() {
     return (
         <footer>
-            <div className="fpart">
-                <div className="fpart1">
-                    <h1>Ryan Queiroz</h1>
-                    <p>@ 2024 - Ryan Queiroz</p>
-                </div>
+            <div className="email-me">
+                <h1>Interesado?</h1>
+                <h1>Entre em Contato!</h1>
+                <p>Meu email profissional estará sempre aberto para novas oportunidades!</p>
+                <div className="btn-email">
+                    <div className="email-img">
+                        <img src={Email} alt="email-icon" />
+                    </div>
 
-                <div className="fpart2">
-                    <h2>Home</h2>
-                    <h2>Sobre Mim</h2>
-                    <h2>Habilidades</h2>
-                    <h2>Projetos</h2>
-                    <h2>Contatos</h2>
-                </div>
-
-                <div className="fpart3">
-                    <h2>ryanqueirozdev44@gmail.com</h2>
-                    <h2>+55 (85) 9259 - 6705</h2>
-                    <h2>Fortaleza - Ceara / Brasil</h2>
-                </div>
-
-                <div className="fpart4">
-                    <img src={GitHub} alt="#" />
-                    <img src={Instagram} alt="#" />
+                    <div className="email-name">ryanqueirozdev44@gmail.com</div>
                 </div>
             </div>
+
+            <div className="contacts-img">
+                <img src={GitHub} alt="github-icon" />
+                <img src={Instagram} alt="instagram-icon" />
+                <img src={Linkedin} alt="linkedin-icon" />
+            </div>
+            <p>© 2024 - Design e construção por Ryan Queiroz.</p>
         </footer>
     );
   }
