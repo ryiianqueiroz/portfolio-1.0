@@ -1,3 +1,7 @@
+:root {
+  --conteudo: "Copiar";
+}
+
 footer {
   max-width: 900px;
   margin: auto;
@@ -23,9 +27,19 @@ footer .email-me .btn-email {
   margin-bottom: 50px;
   transition: 0.25s ease-in;
   max-width: min-content;
+  position: relative;
+  cursor: pointer;
 }
 footer .email-me .btn-email:hover {
-  background-color: rgba(102, 51, 153, 0.5);
+  background-color: rgb(208, 200, 255);
+}
+footer .email-me .btn-email:hover::before {
+  content: var(--conteudo);
+  position: absolute;
+  top: 34.5%;
+  left: 30%;
+  color: rgb(22, 26, 48);
+  font-weight: 900;
 }
 footer .email-me .btn-email .email-img {
   border: 1px solid white;
@@ -46,9 +60,6 @@ footer .email-me .btn-email button {
   border: 1px solid white;
   background: none;
   color: white;
-}
-footer .email-me .btn-email button:hover {
-  background-color: rgba(114, 6, 255, 0.459);
 }
 
 /*# sourceMappingURL=Footer.css.map */

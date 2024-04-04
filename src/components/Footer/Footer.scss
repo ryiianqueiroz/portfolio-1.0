@@ -1,3 +1,7 @@
+:root{
+    --conteudo: "Copiar";
+}
+
 footer{
     max-width: 900px;
     margin: auto;
@@ -27,9 +31,20 @@ footer{
             margin-bottom: 50px;
             transition: 0.25s ease-in;
             max-width: min-content;
+            position: relative;
+            cursor: pointer;
             
             &:hover{
-                background-color: rgba(102, 51, 153, 0.5);
+                background-color: rgb(208, 200, 255);
+
+                &::before{
+                    content: var(--conteudo);
+                    position: absolute;
+                    top: 34.5%;
+                    left: 30%;
+                    color: rgb(22, 26, 48);
+                    font-weight: 900;
+                }
             }
 
             .email-img{
@@ -53,10 +68,6 @@ footer{
                 border: 1px solid white;
                 background: none;
                 color: white;
-
-                &:hover{
-                    background-color: rgba(114, 6, 255, 0.459);
-                }
             }
         }
     }
