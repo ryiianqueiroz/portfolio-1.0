@@ -12,7 +12,7 @@ function Footer() {
     useEffect(() => {
         const ativarClick = (event) => {
             let r = document.querySelector(':root');
-            r.style.setProperty('--conteudo', '"Copiado"');
+            r.style.setProperty('--conteudo', '"Copiado!"');
         };
         
         const element = ref.current;
@@ -36,7 +36,7 @@ function Footer() {
                 <h1>Entre em Contato!</h1>
                 <p>Meu email profissional estará sempre aberto para novas oportunidades!</p>
                 
-                <div className="btn-email" ref={ref} onMouseLeave={tirarClick}>
+                <div className="btn-email" ref={ref} onMouseLeave={tirarClick} onClick={() =>  navigator.clipboard.writeText('ryanqueirozdev44@gmail.com')}>
                     <div className="email-img">
                         <img src={Email} alt="email-icon" />
                     </div>
@@ -46,9 +46,9 @@ function Footer() {
             </div>
 
             <div className="contacts-img">
-                <img src={GitHub} alt="github-icon" />
-                <img src={Instagram} alt="instagram-icon" />
-                <img src={Linkedin} alt="linkedin-icon" />
+                <a href="https://github.com/ryiianqueiroz"><img src={GitHub} alt="github-logo"/></a>
+                <a href="https://www.instagram.com/ry4n.queiroz/"><img src={Instagram} alt="#"/></a>
+                <a href="https://www.linkedin.com/in/ryan-queiroz-4305212ba/"><img src={Linkedin} alt="#"/></a>
             </div>
             <p>© 2024 - Design e construção por Ryan Queiroz.</p>
         </footer>

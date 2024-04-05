@@ -6,9 +6,9 @@ import Linkedin from "../../assets/linkedin-white-logo.png"
 function Contact() {
     return (
         <div className="contacts-images">
-            <img src={GitHub} alt="github-logo"/>
-            <img src={Instagram} alt="#" />
-            <img src={Linkedin} alt="#" />
+            <a href="https://github.com/ryiianqueiroz"><img src={GitHub} alt="github-logo"/></a>
+            <a href="https://www.instagram.com/ry4n.queiroz/"><img src={Instagram} alt="#"/></a>
+            <a href="https://www.linkedin.com/in/ryan-queiroz-4305212ba/"><img src={Linkedin} alt="#"/></a>
             <div className="white-border"></div>
         </div>
     );
