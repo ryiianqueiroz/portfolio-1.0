@@ -164,3 +164,53 @@ nav{
         }
     }
 }
+
+// RESPONSIVE
+
+@media screen and ( max-width: 768px) {
+    nav{
+        top: 0px !important;
+
+        ul{
+            display: none;
+        }
+
+        .hamburger{
+            display: flex;
+            margin-right: 30px;
+        }
+
+        .ul-toggle{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            width: 100%;
+            min-height: 1000vh;
+            background-color: #31304D;
+            top: -50px;
+
+            li{
+                font-size: 1.8rem;
+                margin: 0;
+                margin-right: auto !important;
+                margin-left: 50px !important;
+                margin-bottom: 15px !important;
+
+                &:nth-child(1){
+                    padding-top: 200px;
+                    font-size: 1.8rem;
+                    margin-right: auto !important;
+                    margin-left: 50px !important;
+                }
+
+                &:nth-child(1), &:nth-child(4){
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    #cv button{
+        margin: 0;
+    }
+}
