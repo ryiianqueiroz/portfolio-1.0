@@ -70,4 +70,25 @@ section {
   height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .about-me {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 504px;
+  }
+  .about-me .text-about-me {
+    margin-top: 50px;
+  }
+  .about-me .photo-me {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+  .about-me .photo-me .my-photo {
+    background-color: white;
+    width: 70%;
+    height: 400px;
+  }
+}
+
 /*# sourceMappingURL=About.css.map */

@@ -76,7 +76,8 @@ main .main-principal .bottom-main h3 img:nth-child(1) {
 
 @media screen and (max-width: 768px) {
   main {
-    max-width: 504px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
   main .main-principal p {
     max-width: 400px;

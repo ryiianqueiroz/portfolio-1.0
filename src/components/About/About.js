@@ -29,6 +29,7 @@ function About() {
             </div>
 
           </div>
+          
           <div className="photo-me">
             <div className="my-photo"></div>
           </div>

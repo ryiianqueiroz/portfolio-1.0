@@ -209,4 +209,45 @@
   filter: invert(1);
 }
 
+@media screen and (max-width: 768px) {
+  .projects {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .projects .project {
+    flex-direction: column;
+    padding: 4%;
+  }
+  .projects .project:nth-child(2) {
+    flex-direction: column;
+  }
+  .projects .project .project-img, .projects .project .project-info {
+    width: 100%;
+  }
+  .projects .project .project-img:nth-child(2), .projects .project .project-info:nth-child(2) {
+    margin: 0;
+  }
+  .projects .project .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 100px;
+  }
+  .projects .project .project-info p:nth-child(1) {
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+  .projects .project .project-info #p-info-project {
+    font-size: 1rem;
+  }
+  .other-projects {
+    grid-template-columns: 1fr;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .other-projects .ot-project {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=Projects.css.map */
