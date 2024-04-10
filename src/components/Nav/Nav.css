@@ -144,7 +144,7 @@ nav #ham:checked + .hamburger #s3 {
 
 @media screen and (max-width: 768px) {
   nav {
-    top: 0px !important;
+    top: 0px;
   }
   nav ul {
     display: none;
