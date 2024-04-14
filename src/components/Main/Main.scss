@@ -87,14 +87,18 @@ main{
     }
 }
 
+@media screen and ( max-width: 1091px ) {
+//
+}
+
 @media screen and ( max-width: 768px ) {
     main{
-        margin-left: 70px;
-        margin-right: 70px;
+        margin: auto;
 
         .main-principal{
+            width: 85%;
+
             p{
-                max-width: 400px;
 
                 &:nth-child(1){
                     font-size: 1rem;

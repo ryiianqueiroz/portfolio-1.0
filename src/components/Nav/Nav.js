@@ -43,9 +43,9 @@ function Nav() {
 
         <ul>
           <li onClick={() => [scrollToBottom(0), checkElement()]}>Home</li>
-          <li onClick={() => [scrollToBottom(570), checkElement()]}>Sobre Eu</li>
-          <li onClick={() => [scrollToBottom(1100), checkElement()]}>Projetos</li>
-          <li onClick={() => [scrollToBottom(4000), checkElement()]}>Contato</li>
+          <li onClick={() => [scrollToBottom(620), checkElement()]}>Sobre Eu</li>
+          <li onClick={() => [scrollToBottom(1200), checkElement()]}>Projetos</li>
+          <li onClick={() => [scrollToBottom(10000), checkElement()]}>Contato</li>
           <li id="cv"><button>Currículo</button></li>
         </ul>
 

@@ -23,6 +23,11 @@
   background-color: white;
 }
 
+@media screen and (max-width: 1091px) {
+  .contacts-images {
+    margin-left: 35px;
+  }
+}
 @media screen and (max-width: 768px) {
   .contacts-images {
     display: none;

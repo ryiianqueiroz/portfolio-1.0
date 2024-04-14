@@ -76,3 +76,18 @@ footer{
         }
     }
 }
+
+@media screen and ( max-width: 768px ) {
+    footer{
+        .contacts-img{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            img{
+                width: 5vw;
+                height: 5vw;
+            }
+        }
+    }
+}

@@ -76,11 +76,10 @@ main .main-principal .bottom-main h3 img:nth-child(1) {
 
 @media screen and (max-width: 768px) {
   main {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: auto;
   }
-  main .main-principal p {
-    max-width: 400px;
+  main .main-principal {
+    width: 85%;
   }
   main .main-principal p:nth-child(1) {
     font-size: 1rem;

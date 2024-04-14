@@ -65,4 +65,16 @@ footer .email-me .btn-email button {
   color: white;
 }
 
+@media screen and (max-width: 768px) {
+  footer .contacts-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  footer .contacts-img img {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
 /*# sourceMappingURL=Footer.css.map */
