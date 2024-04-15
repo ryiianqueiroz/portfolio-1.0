@@ -79,7 +79,6 @@ main{
                     &:nth-child(1){
                         width: 30px;
                         height: 30px;
-                        margin-right: 5px;
                     }
                 }
             }
@@ -88,7 +87,9 @@ main{
 }
 
 @media screen and ( max-width: 1091px ) {
-//
+    main{
+        margin: 0 10%;
+    }
 }
 
 @media screen and ( max-width: 768px ) {
@@ -115,6 +116,55 @@ main{
 
             h3{
                 font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 542px) {
+    main{
+        padding-top: 130px;
+    }
+}
+
+@media screen and ( max-width: 420px ) {
+    main{
+        margin: 3%;
+
+        .main-principal{
+            h1{
+                margin-top: -15px;
+                font-size: 3rem;
+            }
+
+            h3{
+                font-size: 1.3rem;
+            }
+
+            p{
+                &:nth-child(4), &:nth-child(5){
+                    font-size: 0.8rem;
+                }
+            }
+
+            .bottom-main{
+                gap: 10px;
+
+                button{
+                    width: 100px;
+                    height: 50px;
+                    font-size: 0.7rem;
+                }
+
+                h3{
+                    font-size: 0.9rem;
+                    text-align: center;
+
+                    img:nth-child(1), img:nth-child(2){
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
             }
         }
     }
