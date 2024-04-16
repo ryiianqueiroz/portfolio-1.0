@@ -216,7 +216,6 @@
 
             hr{
                 width: 100px;
-                height: 1px;
                 display: flex;
                 margin: 0;
             }
@@ -329,192 +328,114 @@
 }
 
 @media screen and ( max-width: 768px ) {
-    #project-h1{
-        margin-bottom: 100px;
-    }
-
     .projects{
-        margin-left: 20%;
-        margin-right: 20%;
-        gap: 130px;
+        margin: auto;
+        max-width: 450px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
 
         .project{
             flex-direction: column;
-            padding: 4%;
-            height: 530px;
-            transform: scale(1.15);
+            padding: 10px;
+            height: 470px;
+            
+            .project-img, .project-info{
+                width: 100%;
+                height: 45%;
+            }
 
-            &:nth-child(2){
-                flex-direction: column;
+            .project-info{
+                height: 55%;
 
-                .project-info{
+                p{
+
+                    &:nth-child(1){
+                        margin-top: 12px;
+                        margin-bottom: 12px;
+                    }
+                }
+
+                #p-info-project{
+                    max-width: 90%;
+                    font-size: 0.9rem;
+                }
+
+                &:nth-child(2){
                     margin-left: 0px;
                 }
             }
 
-            .project-info{
-                width: 100%;
-
-                img{
-                    width: 25px;
-                    height: 25px;
-                }
-
-                h1{
-                    font-size: 2rem;
-                }
-
-                hr{
-                    width: 120px;
-                }
-    
-                #p-info-project{
-                    margin-top: 25px;
-                    max-width: 500px;
-                    font-size: 0.7rem;
-                }
-
-                .icon-skills{
-                    margin-bottom: 70px;
-                }
-    
-                .links-project{
-                    
-                    button{
-                        width: 100px;
-                        font-size: 0.9rem;
-    
-                        img{
-                            width: 20px;
-                            height: 20px;
-                        }
-                    }
-                }
-            }
-
-            .project-img{
-                width: 100%;
-                max-height: 250px;
-                margin-bottom: 20px;
+            &:nth-child(2){
+                flex-direction: column;
             }
         }
     }
 
     .other-projects{
-        grid-template-columns: 1fr;
-        margin-left: 20%;
-        margin-right: 20%;
+        grid-template-columns: 1fr 1fr;
+        margin: 80px auto;
+        padding: 10px auto;
+        max-width: 90%;
+        gap: 8px;
 
         .ot-project{
-            width: 100%;
+            max-height: 250px;
 
-            img{
-                width: 30px;
-                height: 30px;
-            }
-
-            .icon-skills{
-                img{
-                    width: 30px;
-                    height: 30px;
-                }
-            }
-
-            h1{
-                margin-top: 10px;
-                font-size: 2rem;
-            }
-    
             p{
-                margin-bottom: 80px;
-                font-size: 1rem;
-            }
-    
-            .links-ot-project{
-    
-                hr{
-                    width: 100px;
-                    height: 1px;
-                    display: flex;
-                    margin: 0;
-                }
-    
-                .links-ot{
-                    display: flex;
-                    gap: 10px;
-    
-                    a{
-                        img{
-                            cursor: pointer;
-                        }
-                    }
-    
-                    #git-icon{
-                        transform: scale(0.8);
-                        filter: opacity(0.8);
-    
-                        &:hover{
-                            filter: opacity(1);
-                        }
-                    }
-    
-                    #link-icon{
-                        filter: opacity(0.7) invert(1);
-    
-                        &:hover{
-                            filter: invert(1);  
-                        }
-                    }
-                }
+                margin-top: -5px;
             }
         }
     }
 }
 
-@media screen and ( max-width: 600px ) {
+@media screen and ( max-width: 470px ) {
     .projects{
-        margin-left: 16%;
-        margin-right: 16%;
+        max-width: 1000px;
+        margin: auto 5%;
+    }
+}
 
+@media screen and ( max-width: 420px ) {
+    .other-projects{
+        grid-template-columns: 1fr;
+        max-width: 90%;
+
+        .ot-project{
+            height: 250px;
+        }
+    }
+}
+
+@media screen and ( max-width: 320px ) {
+    .projects{
         .project{
-            height: auto;
-
             .project-info{
-                position: relative;
 
                 h1{
-                    margin-top: -15px;
+                    font-size: 1.8rem;
+                }
+
+                .icon-skills{
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
                 }
 
                 .links-project{
-                    gap: 20px;
-                    bottom: 0;
-                    position: absolute;
-                    
                     button{
-                        font-size: 1.1rem;
-                        width: 120px;
+                        width: 85px;
+                        height: 40px;
+                        font-size: 0.8rem;
+
+                        img{
+                            width: 15px;
+                            height: 15px;
+                        }
                     }
                 }
-            }
-        }
-    }
 
-    .other-projects{
-        grid-template-columns: 1fr;
-        margin-left: 20%;
-        margin-right: 20%;
-        gap: 120px;
-
-        .ot-project{
-            transform: scale(1.3);
-
-            .icon-skills{
-                margin-bottom: 10px;
-            }
-
-            &:hover{
-                transform: scale(1.3);
             }
         }
     }
