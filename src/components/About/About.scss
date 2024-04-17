@@ -147,7 +147,18 @@ section{
 
         .text-about-me{
             p{
-                font-size: 1rem;
+                font-size: 0.9rem;
+            }
+
+            h2{
+                font-size: 1.3rem;
+            }
+
+            .tecnology-used{
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
 

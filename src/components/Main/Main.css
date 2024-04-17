@@ -134,5 +134,23 @@ main .main-principal .bottom-main h3 img:nth-child(1) {
     height: 15px;
   }
 }
+@media screen and (max-width: 320px) {
+  main .main-principal .bottom-main {
+    gap: 10px;
+  }
+  main .main-principal .bottom-main button {
+    width: 80px;
+    height: 40px;
+    font-size: 0.6rem;
+  }
+  main .main-principal .bottom-main h3 {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  main .main-principal .bottom-main h3 img:nth-child(1), main .main-principal .bottom-main h3 img:nth-child(2) {
+    width: 15px;
+    height: 15px;
+  }
+}
 
 /*# sourceMappingURL=Main.css.map */

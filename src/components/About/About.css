@@ -121,7 +121,14 @@ section {
     margin: 0px 20px;
   }
   .about-me .text-about-me p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+  .about-me .text-about-me h2 {
+    font-size: 1.3rem;
+  }
+  .about-me .text-about-me .tecnology-used img {
+    width: 30px;
+    height: 30px;
   }
   .about-me .photo-me {
     margin: 5% 10%;
