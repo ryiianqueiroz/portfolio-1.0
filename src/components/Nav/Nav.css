@@ -178,8 +178,25 @@ nav #ham:checked + .hamburger #s3 {
   nav .ul-toggle li:nth-child(1), nav .ul-toggle li:nth-child(4) {
     margin: 0;
   }
+  .still {
+    top: 0px !important;
+  }
   #cv button {
     margin: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  nav .ul-toggle {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  nav .ul-toggle li, nav .ul-toggle li:nth-child(1) {
+    font-size: 1.4rem;
+    margin-left: 20px !important;
+  }
+  #cv button {
+    font-size: 1rem;
   }
 }
 
