@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c75141d.css",
-    "main.js": "/static/js/main.913cce83.js",
-    "static/media/sunnyside-design.jpg": "/static/media/sunnyside-design.d86e4e1ae76428a7db50.jpg",
-    "static/media/insure-design.jpg": "/static/media/insure-design.2569baf31835ff60f234.jpg",
-    "static/media/Curriculo.pdf": "/static/media/Curriculo.c87ecb581c682f35e869.pdf",
-    "static/media/github-logo-white.png": "/static/media/github-logo-white.3ec61b93854178c47369.png",
-    "static/media/instagram-logo-white.png": "/static/media/instagram-logo-white.883ba588d8164b6f1a00.png",
-    "static/media/tip-calculator-design.jpg": "/static/media/tip-calculator-design.99d11dcbe1eea43cf046.jpg",
-    "static/media/angular-logo-white.png": "/static/media/angular-logo-white.82149807c043479bb80d.png",
-    "static/media/html-colorido.png": "/static/media/html-colorido.be50d4568ab0cb01edb8.png",
-    "static/media/mouse.png": "/static/media/mouse.88759d80b83de8260e2b.png",
-    "static/media/sass-colorido.svg": "/static/media/sass-colorido.8351205a93eafac2e392b26acf7580e1.svg",
-    "static/media/react-colorido.svg": "/static/media/react-colorido.e27571eaed899c642345e71163624ef9.svg",
-    "static/media/typescript-logo-colorido.svg": "/static/media/typescript-logo-colorido.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
-    "static/media/javascript-colorido.svg": "/static/media/javascript-colorido.fd46ca41839433d73577989d86eb2fe2.svg",
-    "static/media/angular-colorido.svg": "/static/media/angular-colorido.e185415c50bc1885eed6c6cc9d2b009e.svg",
-    "index.html": "/index.html",
-    "static/media/tailwind-colorido.svg": "/static/media/tailwind-colorido.717d7e811e2eaaa5785b50648353e9ae.svg",
-    "static/media/css-colorido.svg": "/static/media/css-colorido.41e3ef692276caacbbdb6bc38e617d75.svg",
-    "main.8c75141d.css.map": "/static/css/main.8c75141d.css.map",
-    "main.913cce83.js.map": "/static/js/main.913cce83.js.map"
+    "main.css": "/portfolio-1.0/static/css/main.8c75141d.css",
+    "main.js": "/portfolio-1.0/static/js/main.122f9c00.js",
+    "static/media/sunnyside-design.jpg": "/portfolio-1.0/static/media/sunnyside-design.d86e4e1ae76428a7db50.jpg",
+    "static/media/insure-design.jpg": "/portfolio-1.0/static/media/insure-design.2569baf31835ff60f234.jpg",
+    "static/media/Curriculo.pdf": "/portfolio-1.0/static/media/Curriculo.c87ecb581c682f35e869.pdf",
+    "static/media/github-logo-white.png": "/portfolio-1.0/static/media/github-logo-white.3ec61b93854178c47369.png",
+    "static/media/instagram-logo-white.png": "/portfolio-1.0/static/media/instagram-logo-white.883ba588d8164b6f1a00.png",
+    "static/media/tip-calculator-design.jpg": "/portfolio-1.0/static/media/tip-calculator-design.99d11dcbe1eea43cf046.jpg",
+    "static/media/angular-logo-white.png": "/portfolio-1.0/static/media/angular-logo-white.82149807c043479bb80d.png",
+    "static/media/html-colorido.png": "/portfolio-1.0/static/media/html-colorido.be50d4568ab0cb01edb8.png",
+    "static/media/mouse.png": "/portfolio-1.0/static/media/mouse.88759d80b83de8260e2b.png",
+    "static/media/sass-colorido.svg": "/portfolio-1.0/static/media/sass-colorido.8351205a93eafac2e392b26acf7580e1.svg",
+    "static/media/react-colorido.svg": "/portfolio-1.0/static/media/react-colorido.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/typescript-logo-colorido.svg": "/portfolio-1.0/static/media/typescript-logo-colorido.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
+    "static/media/javascript-colorido.svg": "/portfolio-1.0/static/media/javascript-colorido.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/angular-colorido.svg": "/portfolio-1.0/static/media/angular-colorido.e185415c50bc1885eed6c6cc9d2b009e.svg",
+    "index.html": "/portfolio-1.0/index.html",
+    "static/media/tailwind-colorido.svg": "/portfolio-1.0/static/media/tailwind-colorido.717d7e811e2eaaa5785b50648353e9ae.svg",
+    "static/media/css-colorido.svg": "/portfolio-1.0/static/media/css-colorido.41e3ef692276caacbbdb6bc38e617d75.svg",
+    "main.8c75141d.css.map": "/portfolio-1.0/static/css/main.8c75141d.css.map",
+    "main.122f9c00.js.map": "/portfolio-1.0/static/js/main.122f9c00.js.map"
   },
   "entrypoints": [
     "static/css/main.8c75141d.css",
-    "static/js/main.913cce83.js"
+    "static/js/main.122f9c00.js"
   ]
 }
