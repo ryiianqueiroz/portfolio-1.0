@@ -89,6 +89,10 @@ footer .email-me .btn-email .email-name {
     top: 30%;
     font-size: 0.9rem;
   }
+  footer p {
+    width: 90%;
+    margin: 15px auto;
+  }
 }
 @media screen and (max-width: 375px) {
   footer .email-me .btn-email .email-img {
@@ -101,6 +105,13 @@ footer .email-me .btn-email .email-name {
     align-items: center;
     font-size: 0.7rem;
     text-align: center;
+  }
+  footer .email-me .btn-email:hover::before {
+    font-size: 0.7rem;
+    left: 25%;
+  }
+  footer p {
+    font-size: 0.9rem;
   }
 }
 

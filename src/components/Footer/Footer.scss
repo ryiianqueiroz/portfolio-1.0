@@ -113,6 +113,11 @@ footer{
                 }
             }
         }
+
+        p{
+            width: 90%;
+            margin: 15px auto;
+        }
     }
 }
 
@@ -132,7 +137,18 @@ footer{
                     font-size: 0.7rem;
                     text-align: center;
                 }
+
+                &:hover{
+                    &::before{
+                        font-size: 0.7rem;
+                        left: 25%;
+                    }
+                }
             }
+        }
+
+        p{
+            font-size: 0.9rem;
         }
     }
 }
