@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-1.0/static/css/main.b6db1ff6.css",
-    "main.js": "/portfolio-1.0/static/js/main.122f9c00.js",
+    "main.css": "/portfolio-1.0/static/css/main.5c9b6879.css",
+    "main.js": "/portfolio-1.0/static/js/main.934e6319.js",
     "static/media/sunnyside-design.jpg": "/portfolio-1.0/static/media/sunnyside-design.d86e4e1ae76428a7db50.jpg",
     "static/media/insure-design.jpg": "/portfolio-1.0/static/media/insure-design.2569baf31835ff60f234.jpg",
+    "static/media/minha-foto.jpeg": "/portfolio-1.0/static/media/minha-foto.847be094cfaeca8065a4.jpeg",
     "static/media/Curriculo.pdf": "/portfolio-1.0/static/media/Curriculo.c87ecb581c682f35e869.pdf",
     "static/media/github-logo-white.png": "/portfolio-1.0/static/media/github-logo-white.3ec61b93854178c47369.png",
     "static/media/instagram-logo-white.png": "/portfolio-1.0/static/media/instagram-logo-white.883ba588d8164b6f1a00.png",
@@ -19,11 +20,11 @@
     "index.html": "/portfolio-1.0/index.html",
     "static/media/tailwind-colorido.svg": "/portfolio-1.0/static/media/tailwind-colorido.717d7e811e2eaaa5785b50648353e9ae.svg",
     "static/media/css-colorido.svg": "/portfolio-1.0/static/media/css-colorido.41e3ef692276caacbbdb6bc38e617d75.svg",
-    "main.b6db1ff6.css.map": "/portfolio-1.0/static/css/main.b6db1ff6.css.map",
-    "main.122f9c00.js.map": "/portfolio-1.0/static/js/main.122f9c00.js.map"
+    "main.5c9b6879.css.map": "/portfolio-1.0/static/css/main.5c9b6879.css.map",
+    "main.934e6319.js.map": "/portfolio-1.0/static/js/main.934e6319.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6db1ff6.css",
-    "static/js/main.122f9c00.js"
+    "static/css/main.5c9b6879.css",
+    "static/js/main.934e6319.js"
   ]
 }
