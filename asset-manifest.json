@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-1.0/static/css/main.5c9b6879.css",
+    "main.css": "/portfolio-1.0/static/css/main.1214a04f.css",
     "main.js": "/portfolio-1.0/static/js/main.934e6319.js",
     "static/media/sunnyside-design.jpg": "/portfolio-1.0/static/media/sunnyside-design.d86e4e1ae76428a7db50.jpg",
     "static/media/insure-design.jpg": "/portfolio-1.0/static/media/insure-design.2569baf31835ff60f234.jpg",
@@ -20,11 +20,11 @@
     "index.html": "/portfolio-1.0/index.html",
     "static/media/tailwind-colorido.svg": "/portfolio-1.0/static/media/tailwind-colorido.717d7e811e2eaaa5785b50648353e9ae.svg",
     "static/media/css-colorido.svg": "/portfolio-1.0/static/media/css-colorido.41e3ef692276caacbbdb6bc38e617d75.svg",
-    "main.5c9b6879.css.map": "/portfolio-1.0/static/css/main.5c9b6879.css.map",
+    "main.1214a04f.css.map": "/portfolio-1.0/static/css/main.1214a04f.css.map",
     "main.934e6319.js.map": "/portfolio-1.0/static/js/main.934e6319.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c9b6879.css",
+    "static/css/main.1214a04f.css",
     "static/js/main.934e6319.js"
   ]
 }
