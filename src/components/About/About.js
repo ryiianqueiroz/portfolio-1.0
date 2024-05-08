@@ -5,7 +5,8 @@ import Tailwind from "../../assets/tailwind-colorido.svg";
 import Angular from "../../assets/angular-colorido.svg";
 import CSS from "../../assets/css-colorido.svg";
 import HTML from "../../assets/html-colorido.png";
-import Javascript from "../../assets/javascript-colorido.svg";
+import Javascript from "../../assets/javascript-colorido.svg"
+import MinhaFoto from "../../assets/minha-foto.jpeg"
 
 function About() {
     return (
@@ -31,7 +32,9 @@ function About() {
           </div>
           
           <div className="photo-me">
-            <div className="my-photo"></div>
+            <div className="my-photo">
+              <img src={MinhaFoto} alt="foto" className="portifolio-foto"/>
+            </div>
           </div>
         </div>
       </section>

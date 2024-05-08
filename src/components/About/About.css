@@ -15,8 +15,7 @@ section {
 }
 
 .about-me {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   margin-top: 23px;
   margin-right: auto;
   margin-left: auto;
@@ -26,6 +25,7 @@ section {
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 50%;
 }
 .about-me .text-about-me p:nth-child(1) {
   margin-top: 0px;
@@ -62,13 +62,27 @@ section {
 }
 .about-me .photo-me {
   display: flex;
+  width: 50%;
   height: 100%;
   justify-content: right;
 }
 .about-me .photo-me .my-photo {
   background-color: white;
-  width: 70%;
+  max-width: 250px;
   height: 100%;
+  display: flex;
+}
+.about-me .photo-me .my-photo .portifolio-foto {
+  width: 100%;
+  border: 3px solid white;
+  height: 100%;
+  max-height: 320px;
+  margin: auto;
+  filter: grayscale(1);
+  transition: 0.2s ease-in-out;
+}
+.about-me .photo-me .my-photo .portifolio-foto:hover {
+  filter: grayscale(0);
 }
 
 @media screen and (max-width: 1091px) {
@@ -94,9 +108,12 @@ section {
     display: flex;
     flex-direction: column-reverse;
     max-width: 504px;
+    text-align: center;
+    align-items: center;
   }
   .about-me .text-about-me {
     margin-top: 50px;
+    width: 100%;
   }
   .about-me .photo-me {
     display: flex;
@@ -105,7 +122,7 @@ section {
   }
   .about-me .photo-me .my-photo {
     background-color: white;
-    width: 70%;
+    width: 100%;
     height: 400px;
   }
 }
@@ -134,8 +151,20 @@ section {
     margin: 5% 10%;
   }
   .about-me .photo-me .my-photo {
+    min-width: 250px;
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .about-me .photo-me {
     width: 100%;
+  }
+  .about-me .photo-me .my-photo {
+    min-width: 0;
     max-height: 100vw;
+  }
+  .about-me .photo-me .my-photo .portifolio-foto {
+    width: 100%;
   }
 }
 
