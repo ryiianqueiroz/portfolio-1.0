@@ -170,7 +170,7 @@ function Projects() {
             </div>
 
             <h1>loopstudios</h1>
-            <p>Criação de uma landing page com design responsivo.</p>
+            <p>Desenvolvimento de uma landing page com design responsivo e otimizado em diferentes dispositivos e tamanhos de tela.</p>
             <div className="icon-skills ot-pr">
                 <img src={React} alt="react-icon" />
                 <img src={SASS} alt="sass-icon" />
