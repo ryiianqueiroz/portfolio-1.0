@@ -12,6 +12,7 @@ import JS from "../../assets/javascript-colorido.svg"
 import Tailwind from "../../assets/tailwind-colorido.svg"
 import Angular from "../../assets/angular-logo-white.png"
 import Typescript from "../../assets/typescript-logo-colorido.svg"
+import CountryApi from "../../assets/country-api.jpg"
 
 function Projects() {
     return (
@@ -19,6 +20,37 @@ function Projects() {
         <h1 id="project-h1">Projetos</h1>
 
         <div className="projects">
+
+          <div className="project">
+            <div className="project-img">
+              <img src={CountryApi} alt="project-img" />
+            </div>
+            
+            <div className="project-info">
+              <p>{'</>'}</p>
+              <h1>Country API</h1>
+              <hr />
+              <p id="p-info-project">Projeto com informações de todos os países, incluindo modo escuro, pesquisa e filtragem por região.</p>
+
+              <div className="icon-skills ">
+                <img src={React} alt="react-icon" />
+                <img src={Tailwind} alt="sass-icon" />
+                <img src={HTML} alt="html-icon" />
+                <img src={CSS} alt="css-icon" />
+                <img src={JS} alt="js-icon" />
+              </div>
+
+              <div className="links-project">
+                <a href="https://github.com/ryiianqueiroz/country-api">
+                  <button><img src={GitHub} alt="#" /> Código</button>
+                </a>
+                <a href="https://ryiianqueiroz.github.io/country-api/">
+                  <button><img id="open-link" src={OpenLink} alt="#" />Veja</button>
+                </a>
+              </div>
+            </div>
+
+          </div>
           
           <div className="project">
             <div className="project-img">
