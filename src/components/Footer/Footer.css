@@ -1,0 +1,118 @@
+:root {
+  --conteudo: "Copiar";
+}
+
+footer {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 170px;
+  padding-bottom: 90px;
+}
+footer .contacts-img {
+  display: none;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+}
+footer .email-me h1 {
+  font-size: 3rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+footer .email-me .btn-email {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition: 0.25s ease-in;
+  max-width: min-content;
+  position: relative;
+  cursor: pointer;
+}
+footer .email-me .btn-email:hover {
+  background-color: rgb(208, 200, 255);
+}
+footer .email-me .btn-email:hover::before {
+  content: var(--conteudo);
+  position: absolute;
+  top: 34.5%;
+  left: 30%;
+  color: rgb(22, 26, 48);
+  font-weight: 900;
+}
+footer .email-me .btn-email .email-img {
+  border: 1px solid white;
+  padding: 22.5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+footer .email-me .btn-email .email-name {
+  color: white;
+  padding: 22px;
+  border: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  footer .contacts-img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  footer .contacts-img img {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer .email-me {
+    position: relative;
+  }
+  footer .email-me h1 {
+    font-size: 2rem;
+  }
+  footer .email-me p {
+    font-size: 0.8rem;
+  }
+  footer .email-me .btn-email {
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  footer .email-me .btn-email:hover::before {
+    top: 30%;
+    font-size: 0.9rem;
+  }
+  footer p {
+    width: 90%;
+    margin: 15px auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  footer .email-me .btn-email .email-img {
+    padding: 5px;
+    width: 20%;
+  }
+  footer .email-me .btn-email .email-name {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  footer .email-me .btn-email:hover::before {
+    font-size: 0.7rem;
+    left: 25%;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=Footer.css.map */
