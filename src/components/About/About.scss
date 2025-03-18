@@ -1,0 +1,211 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-h1{
+    font-size: 2rem;
+    display: flex;
+    align-self: center;
+    margin-top: 160px;
+    border-bottom: 2px solid rgb(182, 187, 196);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.about-me{
+    display: flex;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 850px;
+
+    .text-about-me{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 50%;
+
+        p:nth-child(1){
+            margin-top: 0px;
+        }
+
+        h2{
+            color: white;
+        }
+    }
+
+    .tecnology-used{
+
+        img{
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            filter: brightness(0) invert(1);
+            cursor: pointer;
+
+            &:nth-child(2){
+                filter: grayscale(100%) brightness(70%) contrast(2) invert(2);
+                transform: scale(0.9);
+            }
+
+            &:nth-child(5){
+                transform: scale(1);
+            }
+
+            &:nth-child(6){
+                transform: scale(0.85);
+            }
+
+            &:nth-child(5), &:nth-child(6){
+                filter: grayscale(100%) brightness(70%) contrast(300%) invert(2);
+            }
+
+            &:nth-child(7){
+                filter: grayscale(100%) brightness(100%) contrast(2) invert(0);
+                transform: scale(0.8);
+            }
+
+            &:hover{
+                filter: brightness(1) invert(0) contrast(1) grayscale(0); 
+            }
+        }
+    }
+
+    .photo-me{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: right;
+
+        .my-photo{
+            background-color: white;
+            max-width: 250px;
+            height: 100%;
+            display: flex;
+
+            .portifolio-foto{
+                width: 100%;
+                border: 3px solid white;
+                height: 100%;
+                max-height: 320px;
+                margin: auto;
+                filter: grayscale(1);
+                transition: 0.2s ease-in-out;
+
+                &:hover{
+                    filter: grayscale(0);
+                }
+            }
+        }
+    }
+}
+
+// RESPONSIVE
+
+@media screen and ( max-width: 1091px ) {
+    .about-me{
+        max-width: 75%;
+
+        .photo-me{
+            display: flex;
+            height: 100%;
+            justify-content: right;
+    
+            .my-photo{
+                background-color: white;
+                width: 70%;
+                max-height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    #about-me-h1{
+        margin-top: 130px;
+    }
+
+    .about-me{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 504px;
+        text-align: center;
+        align-items: center;
+
+        .text-about-me{
+            margin-top: 50px;
+            width: 100%;
+        }
+
+        .photo-me{
+            display: flex;
+            height: 100%;
+            justify-content: center;
+    
+            .my-photo{
+                background-color: white;
+                width: 100%;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 550px ) {
+    #about-me-h1{
+        margin-top: 120px;
+        font-size: 1.5rem;
+    }
+
+    .about-me{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 1000px;
+        margin: 0px 20px;
+
+        .text-about-me{
+            p{
+                font-size: 0.9rem;
+            }
+
+            h2{
+                font-size: 1.3rem;
+            }
+
+            .tecnology-used{
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+
+        .photo-me{
+            margin: 5% 10%;
+
+            .my-photo{
+                min-width: 250px;
+                max-height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 320px ) {
+    .about-me{
+        .photo-me{
+            width: 100%;
+
+            .my-photo{
+                min-width: 0;
+                max-height: 100vw;
+
+                .portifolio-foto{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

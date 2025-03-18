@@ -1,0 +1,154 @@
+:root{
+    --conteudo: "Copiar";
+}
+
+footer{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 170px;
+    padding-bottom: 90px;
+
+    .contacts-img{
+        display: none;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .email-me{
+
+        h1{
+            font-size: 3rem;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .btn-email{
+            display: flex;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            transition: 0.25s ease-in;
+            max-width: min-content;
+            position: relative;
+            cursor: pointer;
+            
+            &:hover{
+                background-color: rgb(208, 200, 255);
+
+                &::before{
+                    content: var(--conteudo);
+                    position: absolute;
+                    top: 34.5%;
+                    left: 30%;
+                    color: rgb(22, 26, 48);
+                    font-weight: 900;
+                }
+            }
+
+            .email-img{
+                border: 1px solid white;
+                padding: 22.5px;
+                padding-right: 30px;
+                padding-left: 30px;
+                display: flex;
+                align-items: center;
+            }
+
+            .email-name{
+                color: white;
+                padding: 22px;
+                border: 1px solid white;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    footer{
+        .contacts-img{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            img{
+                width: 5vw;
+                height: 5vw;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 500px ) {
+    footer{
+
+        .email-me{
+            position: relative;
+
+            h1{
+                font-size: 2rem;
+            }
+
+            p{
+                font-size: 0.8rem;
+            }
+
+            .btn-email{
+                max-height: 100px;
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+                &:hover{
+                    
+                    &::before{
+                        top: 30%;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+
+        p{
+            width: 90%;
+            margin: 15px auto;
+        }
+    }
+}
+
+@media screen and ( max-width: 375px ) {
+    footer {
+        .email-me{
+            .btn-email{
+                .email-img {
+                    padding: 5px;
+                    width: 20%;
+                }
+
+                .email-name{
+                    padding: 5px;
+                    display: flex;
+                    align-items: center; 
+                    font-size: 0.7rem;
+                    text-align: center;
+                }
+
+                &:hover{
+                    &::before{
+                        font-size: 0.7rem;
+                        left: 25%;
+                    }
+                }
+            }
+        }
+
+        p{
+            font-size: 0.9rem;
+        }
+    }
+}
