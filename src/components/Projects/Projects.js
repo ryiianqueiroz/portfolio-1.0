@@ -16,6 +16,7 @@ import Typescript from "../../assets/typescript-logo-colorido.svg"
 import CountryApi from "../../assets/country-api.jpg"
 import Comments from "../../assets/desktop-designs/comments-design.jpg"
 import Node from "../../assets/node-js.png"
+import Spotify from "../../assets/spotify-web.png"
 
 function Projects() {
     return (
@@ -26,7 +27,7 @@ function Projects() {
 
           <div className="project">
             <div className="project-img">
-              <img src={Comments} alt="project-img" />
+              <img src={Spotify} alt="project-img" />
             </div>
             
             <div className="project-info">
