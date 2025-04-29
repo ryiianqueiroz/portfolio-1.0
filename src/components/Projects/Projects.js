@@ -10,6 +10,7 @@ import HTML from "../../assets/html-colorido.png"
 import CSS from "../../assets/css-colorido.svg"
 import JS from "../../assets/javascript-colorido.svg"
 import Tailwind from "../../assets/tailwind-colorido.svg"
+import NextJS from "../../assets/Next.js.png"
 import Angular from "../../assets/angular-logo-white.png"
 import Typescript from "../../assets/typescript-logo-colorido.svg"
 import CountryApi from "../../assets/country-api.jpg"
@@ -23,7 +24,35 @@ function Projects() {
 
         <div className="projects">
 
-        <div className="project">
+          <div className="project">
+            <div className="project-img">
+              <img src={Comments} alt="project-img" />
+            </div>
+            
+            <div className="project-info">
+              <p>{'</>'}</p>
+              <h1>Spotify</h1>
+              <hr />
+              <p id="p-info-project">Um "clone" da interface do Spotify utilizando Next.js e Tailwind CSS, focando na estrutura visual da plataforma e garantindo responsividade e uma navegação fluida.</p>
+
+              <div className="icon-skills">
+                <img src={NextJS} alt="nextjs-icon" />
+                <img src={Tailwind} alt="tailwind-icon" />
+                <img src={Typescript} alt="typescript-icon"/>
+              </div>
+
+              <div className="links-project">
+                <a href="https://github.com/ryiianqueiroz/crud-react-express">
+                  <button><img src={GitHub} alt="#" /> Código</button>
+                </a>
+                <a href="https://crud-react-express-eight.vercel.app/">
+                  <button><img id="open-link" src={OpenLink} alt="#" />Veja</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project">
             <div className="project-img">
               <img src={Comments} alt="project-img" />
             </div>
@@ -52,7 +81,6 @@ function Projects() {
                 </a>
               </div>
             </div>
-
           </div>
 
           <div className="project">
@@ -83,7 +111,6 @@ function Projects() {
                 </a>
               </div>
             </div>
-
           </div>
           
           <div className="project">
@@ -298,17 +325,16 @@ function Projects() {
               </div>
             </div>
 
-            <h1>Social Media</h1>
-            <p>Apresentação das estatísticas das redes sociais do usuário e com opção de tema claro ou escuro.</p>
+            <h1>SPLITTER</h1>
+            <p>Calcule a contribuição individual necessária da mesa para cobrir a conta.</p>
             <div className="icon-skills ot-pr">
-                <img src={Angular} alt="angular-icon" />
+                <img src={React} alt="angular-icon" />
                 <img src={SASS} alt="sass-icon" />
                 <img src={HTML} alt="html-icon" />
                 <img src={CSS} alt="css-icon" />
-                <img src={Typescript} alt="typescript-icon" id="typescript-img"/>
+                <img src={JS} alt="typescript-icon"/>
             </div>
           </div>
-
         </div>
       </>
     );
