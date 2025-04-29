@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-1.0/static/css/main.4193560b.css",
-    "main.js": "/portfolio-1.0/static/js/main.fd172c0a.js",
+    "main.js": "/portfolio-1.0/static/js/main.b61b1c34.js",
+    "static/media/spotify-web.png": "/portfolio-1.0/static/media/spotify-web.bc842d558cda04b79fc3.png",
     "static/media/sunnyside-design.jpg": "/portfolio-1.0/static/media/sunnyside-design.d86e4e1ae76428a7db50.jpg",
     "static/media/insure-design.jpg": "/portfolio-1.0/static/media/insure-design.2569baf31835ff60f234.jpg",
     "static/media/minha-foto.jpeg": "/portfolio-1.0/static/media/minha-foto.847be094cfaeca8065a4.jpeg",
@@ -23,10 +24,10 @@
     "static/media/tailwind-colorido.svg": "/portfolio-1.0/static/media/tailwind-colorido.717d7e811e2eaaa5785b50648353e9ae.svg",
     "static/media/css-colorido.svg": "/portfolio-1.0/static/media/css-colorido.41e3ef692276caacbbdb6bc38e617d75.svg",
     "main.4193560b.css.map": "/portfolio-1.0/static/css/main.4193560b.css.map",
-    "main.fd172c0a.js.map": "/portfolio-1.0/static/js/main.fd172c0a.js.map"
+    "main.b61b1c34.js.map": "/portfolio-1.0/static/js/main.b61b1c34.js.map"
   },
   "entrypoints": [
     "static/css/main.4193560b.css",
-    "static/js/main.fd172c0a.js"
+    "static/js/main.b61b1c34.js"
   ]
 }
