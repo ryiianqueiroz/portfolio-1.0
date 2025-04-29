@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-1.0/static/css/main.997f5cc0.css",
-    "main.js": "/portfolio-1.0/static/js/main.13989c16.js",
+    "main.css": "/portfolio-1.0/static/css/main.4193560b.css",
+    "main.js": "/portfolio-1.0/static/js/main.fd172c0a.js",
     "static/media/sunnyside-design.jpg": "/portfolio-1.0/static/media/sunnyside-design.d86e4e1ae76428a7db50.jpg",
     "static/media/insure-design.jpg": "/portfolio-1.0/static/media/insure-design.2569baf31835ff60f234.jpg",
     "static/media/minha-foto.jpeg": "/portfolio-1.0/static/media/minha-foto.847be094cfaeca8065a4.jpeg",
     "static/media/country-api.jpg": "/portfolio-1.0/static/media/country-api.543403b88702af48b799.jpg",
     "static/media/github-logo-white.png": "/portfolio-1.0/static/media/github-logo-white.3ec61b93854178c47369.png",
     "static/media/comments-design.jpg": "/portfolio-1.0/static/media/comments-design.7d70a482ad7253822835.jpg",
-    "static/media/Curriculo.pdf": "/portfolio-1.0/static/media/Curriculo.07923ac2aabda16199f2.pdf",
+    "static/media/Curriculo.pdf": "/portfolio-1.0/static/media/Curriculo.6af2fb9fbefdbb50909f.pdf",
     "static/media/instagram-logo-white.png": "/portfolio-1.0/static/media/instagram-logo-white.883ba588d8164b6f1a00.png",
     "static/media/tip-calculator-design.jpg": "/portfolio-1.0/static/media/tip-calculator-design.99d11dcbe1eea43cf046.jpg",
     "static/media/angular-logo-white.png": "/portfolio-1.0/static/media/angular-logo-white.82149807c043479bb80d.png",
@@ -22,11 +22,11 @@
     "index.html": "/portfolio-1.0/index.html",
     "static/media/tailwind-colorido.svg": "/portfolio-1.0/static/media/tailwind-colorido.717d7e811e2eaaa5785b50648353e9ae.svg",
     "static/media/css-colorido.svg": "/portfolio-1.0/static/media/css-colorido.41e3ef692276caacbbdb6bc38e617d75.svg",
-    "main.997f5cc0.css.map": "/portfolio-1.0/static/css/main.997f5cc0.css.map",
-    "main.13989c16.js.map": "/portfolio-1.0/static/js/main.13989c16.js.map"
+    "main.4193560b.css.map": "/portfolio-1.0/static/css/main.4193560b.css.map",
+    "main.fd172c0a.js.map": "/portfolio-1.0/static/js/main.fd172c0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.997f5cc0.css",
-    "static/js/main.13989c16.js"
+    "static/css/main.4193560b.css",
+    "static/js/main.fd172c0a.js"
   ]
 }
