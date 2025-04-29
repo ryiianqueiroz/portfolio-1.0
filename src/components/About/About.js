@@ -2,12 +2,12 @@ import "./About.css"
 import React from "../../assets/react-colorido.svg";
 import Sass from "../../assets/sass-colorido.svg";
 import Tailwind from "../../assets/tailwind-colorido.svg";
-import Angular from "../../assets/angular-colorido.svg";
 import CSS from "../../assets/css-colorido.svg";
 import HTML from "../../assets/html-colorido.png";
 import Javascript from "../../assets/javascript-colorido.svg"
 import MinhaFoto from "../../assets/minha-foto.jpeg"
 import Node from "../../assets/node-js.png"
+import NextJS from "../../assets/Next.js.png"
 
 function About() {
     return (
@@ -22,7 +22,7 @@ function About() {
             <h2>Tecnologias Usadas:</h2>
             <div className="tecnology-used">
               <img src={React} alt="#" />
-              <img src={Angular} alt="#" />
+              <img src={NextJS} alt="#"/>
               <img src={Sass} alt="#" />
               <img src={Tailwind} alt="#" />
               <img src={HTML} alt="#" />

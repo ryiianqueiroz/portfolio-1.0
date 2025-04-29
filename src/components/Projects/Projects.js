@@ -27,7 +27,7 @@ function Projects() {
 
           <div className="project">
             <div className="project-img">
-              <img src={Spotify} alt="project-img" />
+              <img src={Spotify} alt="project-img" id="spotify-img"/>
             </div>
             
             <div className="project-info">
@@ -43,10 +43,10 @@ function Projects() {
               </div>
 
               <div className="links-project">
-                <a href="https://github.com/ryiianqueiroz/crud-react-express">
+                <a href="https://github.com/ryiianqueiroz/spotify-clone">
                   <button><img src={GitHub} alt="#" /> Código</button>
                 </a>
-                <a href="https://crud-react-express-eight.vercel.app/">
+                <a href="https://spotify-clone-cyan-delta.vercel.app/">
                   <button><img id="open-link" src={OpenLink} alt="#" />Veja</button>
                 </a>
               </div>

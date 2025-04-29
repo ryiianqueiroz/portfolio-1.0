@@ -44,6 +44,9 @@ section {
   filter: grayscale(100%) brightness(70%) contrast(2) invert(2);
   transform: scale(0.9);
 }
+.about-me .tecnology-used img:nth-child(2):hover {
+  filter: brightness(1) invert(1) !important;
+}
 .about-me .tecnology-used img:nth-child(5) {
   transform: scale(1);
 }
